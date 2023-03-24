@@ -1,0 +1,57 @@
+.containerbutton {
+    background-color: white;
+    height: 45px;
+    width: 160px;
+    position: absolute;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 8px -2px #444444;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.label1 {
+    display: block;
+    height: 100px;
+    width: 80px;
+    background: linear-gradient(to bottom,
+            white 0, white 45px,
+            #215c16 45px, #215c16 120px);
+    position: absolute;
+    top: 0;
+    color: #2c2c2c;
+    transition: 0.5s;
+}
+
+.label2 {
+    right: 0;
+    display: block;
+    height: 100px;
+    width: 80px;
+    background: linear-gradient(to bottom,
+            white 0, white 45px,
+            #861919 45px, #861919 120px);
+    position: absolute;
+    top: 0;
+    color: #2c2c2c;
+    transition: 0.5s;
+}
+
+span {
+    display: flex;
+    height: 45px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+input:checked+label {
+    background-position: 0 -45px;
+    color: white;
+    transition: 0.7s;
+}

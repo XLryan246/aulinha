@@ -1,0 +1,91 @@
+form .container {
+    background-color: #fff;
+    width: 66% ;
+    height: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 22px;
+    box-shadow: 3px 8px 3px 5px rgba(26, 26, 26, 0.521);
+}
+
+form .logo img {
+    width: 150px ;
+    height: 150px;
+}
+
+form {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(#530082, #BA4DE3);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+form .container .inputs {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+form .container .inputs input {
+    background-color: hsla(0, 5%, 24%, 0.17);
+    padding: 15px 20px;
+    width: 220px;
+    margin-top: 20px;
+    border-radius:25px;
+    border: 2px solid #BA4DE3;
+}
+
+form .container .inputs input::placeholder {
+    color:#BA4DE3;
+}
+
+form .container .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+form .container .titulo h1 { 
+    font-family: 'Monda', sans-serif;
+    font-size: 36px;  
+    color: #8A05BE;     
+}
+
+
+form .container .titulo p { 
+    font-family: 'Monda', sans-serif;
+    font-size: 22px;
+    color: #8A05BE;   
+}
+
+form .container .Botao {
+box-sizing: border-box;
+width: 123px;
+height: 35px;
+margin-top: 20px;
+background: #8A05BE;
+border: 0.7px solid #8A05BE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+}
+
+form .container .Botao p {
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-size: 17px;
+color: #FFFFFF;
+margin-top: 4px;
+}

@@ -1,0 +1,48 @@
+  .container {
+      background-color: rgba(255, 255, 255, 1);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      position: fixed;
+      height: 100%;
+      top: 0px;
+      left: 0px;
+      width: 240px;
+      left: -100%;
+  }
+
+  .container.active{ 
+    left: 0% !important;
+  }
+
+  .container>img {
+      position: absolute;
+      width: 111px;
+      height: 108px;
+      left: 71px;
+      top: 28px;
+  }
+
+  .container>svg {
+      position: fixed;
+      color: rgba(83, 0, 130, 1);
+      width: 30px;
+      height: 30px;
+      margin-top: 20px;
+      margin-left: 32px;
+      cursor: pointer;
+  }
+
+  @keyframes showSidebar {
+      from {
+          opacity: 0;
+          width: 0;
+      }
+
+      to {
+          opacity: 1;
+          width: 300px;
+      }
+  }
+
+  .content {
+      margin-top: 150px;
+  }
